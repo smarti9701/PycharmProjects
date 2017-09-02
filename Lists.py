@@ -18,5 +18,5 @@ print(Company[0][0])  #the first reference [0] refers to the row or tuple. the s
 print(Company[1][0])
 
 
-for person in Company:
+for person in Company:  #this will list only the first column
     print(person[0])
