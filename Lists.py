@@ -1,4 +1,4 @@
-Employee1 = ['Steve Martinez', 44, 130000, 'Agile Coach']
+Employee1 = ['Steve Martinez', 44, 150000, 'Agile Coach']
 Employee2 = ['Eda Martinez', 42, 130000, 'Scrum Master']
 print(Employee1)
 print(Employee2)
@@ -20,3 +20,19 @@ print(Company[1][0])
 
 for person in Company:  #this will list only the first column
     print(person[0])
+
+for person in Company:  #to check pay for each person or record
+    print(person[2])
+
+pays = [person[2] for person in Company]  #prints pay for each record
+print(pays)
+
+pays = map((lambda x:x[2]), Company)    #A use of map here would be if you start with a list
+# of strings instead of a single string - map can listify all of them individually
+# f = lambda x, y : x + y
+# #f(1,1)
+#  2
+#list(pays)  this command from the tutorial doesn't show anything because it needs the print() command
+print(list(pays))
+
+print(sum(person[2] for person in Company))
