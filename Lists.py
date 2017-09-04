@@ -36,3 +36,4 @@ pays = map((lambda x:x[2]), Company)    #A use of map here would be if you start
 print(list(pays))
 
 print(sum(person[2] for person in Company))
+
