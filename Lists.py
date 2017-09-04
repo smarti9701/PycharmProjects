@@ -37,3 +37,10 @@ print(list(pays))
 
 print(sum(person[2] for person in Company))
 
+Company.append(['Jazzy', 20, 10000, 'Barista'])
+print(Company)
+print(Employee1)
+print(Employee2)
+#print(Employee3) - you can't bring up Employee3 though because it hasn't been created
+print(len(Company)) #produces the number of records
+print(Company[-1][0]) #brings up the first list item going backwards - -1 and provides the first "element" in that sublist
