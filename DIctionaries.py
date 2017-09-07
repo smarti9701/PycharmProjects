@@ -22,3 +22,6 @@ Couple = [Steve, Eda]
 for person in Couple:
     print(person['name'], person['pay'], sep=',')
     print(person['name'], person['pay'])
+
+for person in Couple:
+    if person ==['name']
