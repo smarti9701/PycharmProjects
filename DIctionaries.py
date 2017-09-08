@@ -16,6 +16,8 @@ people = [Steve, Eda]
 for person in people:  # this identifies and sets rule up for each list item to be tied to "person"
     #print(person['name'], person['pay'], sep=',')  # these two print statements do the exact same output
     print(person['name'], person['pay'])
+
+for person in people:  # this identifies and sets rule up for each list item to be tied to "person"
 #for person in Couple:
     if person['name'] == 'Steve Martinez': #since the key is 'name', then I have to use the name indicated for 'name'
         print(Steve['pay'])
@@ -27,7 +29,7 @@ for person in people:  # this identifies and sets rule up for each list item to 
 input("Please enter Employee's name: ")
 for person in people:
    #if input == person['name']:
-   if person['name'] == Steve:
+   if person['name'] == 'Steve':
         print(person['pay'])
 
 
