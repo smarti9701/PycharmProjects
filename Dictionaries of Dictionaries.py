@@ -27,8 +27,18 @@ for key in db:
 for key in db:
     print(db[key]['name'].split()[-1]) #print all the last names
 
+
+#Two ways of calling key information
 for key in db:
     print(db[key]['job'].split())
 
 for record in db.values():
     print(record['pay'])
+
+
+#Two ways of calling key information
+x=[db[key]['name']for key in db]
+print(x)
+
+x= [rec['name'] for rec in db.values()]
+print(x)
