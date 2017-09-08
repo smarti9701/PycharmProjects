@@ -42,3 +42,9 @@ print(x)
 
 x= [rec['name'] for rec in db.values()]
 print(x)
+
+#adding new records
+db['bill'] = dict(name='Bill Smith', age=50, job='unemployed', pay=0)
+print(db['bill'])
+print(db)
+
