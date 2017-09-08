@@ -25,7 +25,7 @@ for key in db:
     print(key, '=>', db[key]['pay'])
 
 for key in db:
-    print(db[key]['name'].split()[-1]) #3print all the last names
+    print(db[key]['name'].split()[-1]) #print all the last names
 
 for key in db:
     print(db[key]['job'].split())
