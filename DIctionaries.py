@@ -26,11 +26,11 @@ for person in people:  # this identifies and sets rule up for each list item to 
         #print('done')
 
 
-input("Please enter Employee's name: ")
-for person in people:
+#input("Please enter Employee's name: ")
+#for person in people:
    #if input == person['name']:
-   if person['name'] == 'Steve':
-        print(person['pay'])
+ #  if person['name'] == 'Steve':
+  #      print(person['pay'])
 
 
     #names = person['name']
@@ -40,3 +40,13 @@ for person in people:
 list(map((lambda x:x['name']), people))
 
 sum(person['pay'] for person in people)
+
+
+fruit = {'apple': 'A crispy fruit!',
+         'orange': 'A juicy fruit!',
+         'cherry': 'Great for pies!'}
+
+print(fruit)
+
+for snack in fruit:
+    print(fruit[snack])
