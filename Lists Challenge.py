@@ -16,6 +16,6 @@ menu.append(["egg", "grits", "bacon", "sausage", "ham"])
 
 for meal in menu:
     if not "spam" in meal:
-        print("You will like our {} meal." .format([meal]))
+        print("If you don't like spam, then you will like our {} meal." .format([meal]))
         for item in meal:
             print(item)
