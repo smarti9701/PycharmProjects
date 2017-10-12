@@ -10,13 +10,13 @@ print("++"*30)
 print(title, year,)
 for song in tracks:
     track, songtitle = song
-    print(song)
+    print("\t", song)
     # print("---" * 20)
     # print("\t", song)
     # print("---" * 20)
     # print("\n", song)
     # print("---" * 20)
-    print("Track number {} assigned to the song named {}." .format(track, title))
+    print("\tTrack number {} assigned to the song named {}." .format(track, title))
 
 
 
