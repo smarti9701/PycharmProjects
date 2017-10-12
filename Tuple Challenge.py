@@ -8,3 +8,5 @@ print(year)
 print(tracks)
 print("++"*30)
 print(title, year,)
+for song in tracks:
+    print(song)
