@@ -18,6 +18,8 @@ while True:
     availableExits = ' '
     for direction in exits[loc].keys(): #the keys in exits are the cardinal directions
         availableExits += direction + ','
+    #an alternative to lines 19 & 20
+    #availableExits = ",".join(exits[loc].keys())
     print(locations[loc])
 
     if loc == 0:
