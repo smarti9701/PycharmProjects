@@ -1,5 +1,5 @@
 Steve = {'name': 'Steve Martinez', 'age': 44, 'pay': 150000, 'job': 'Agile Coach'}
-Eda = {'name': 'Eda Martinez', 'age': 42, 'pay': 150000, 'job': 'Agile Coach'}
+Eda = {'name': 'Eda Martinez', 'age': 42, 'pay': 170000, 'job': 'Agile Coach'}
 
 print(Steve['name'], Eda['pay'])
 
@@ -50,3 +50,8 @@ print(fruit)
 
 for snack in fruit:
     print(fruit[snack])
+
+
+print(people)
+
+print(Steve.items())
